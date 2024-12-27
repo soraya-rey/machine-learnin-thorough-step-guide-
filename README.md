@@ -89,7 +89,7 @@ Correlation and clustering:
 
 ```
 
-<img src="results_copie/feature_correlation_heatmap.png" width="400"/>
+<img src="results_copie/feature_correlation_heatmap.png" width="700"/>
 
 
 Distribution analysis:
@@ -101,7 +101,8 @@ The Shapiro Wilk test was used to test for normality and the Kolmogorov Smirnov 
 
 ```
 
-![Alt text](results/feature_distribution_example.png)
+
+<img src="results_copie/feature_distribution_example.png" width="700"/>
 
 I could see that a lot of features seemed to follow a normal or an exponential distribution, Shapiro Wilk is sensitive to large datasets and even small deviations can result in rejection of null hypothesis , the Kolmogorov Smirnov test assumes that the data tested spans the entire range of the theoritical exponential distribution and so doing a visual check with previous function can help when no distribution is detected by the tests.
 
@@ -110,7 +111,8 @@ I could see that a lot of features seemed to follow a normal or an exponential d
 
 ```
 
-![Alt text](results/distribution_of_features.png)
+
+<img src="results_copie/distribution_of_features.png" width="700"/>
 
 
 Label distribution:
@@ -121,7 +123,7 @@ Label distribution:
 
 ```
 
-![Alt text](results/distribution_of_features.png)
+<img src="results_copie/label_proportions.png" width="700"/>
 
 
 ## Step 3: Standardization
@@ -154,7 +156,7 @@ Visualize feature importance:
 
 ```
 
-![Alt text](results/ranking_features.png)
+<img src="results_copie/ranking_features.png" width="700"/>
 
 Select features using specific methods:
 
@@ -227,7 +229,8 @@ Compare models performance depending on models used, feature selection used, nor
 
 ```
 
+<img src="results_copie/performance_models_normalized_data.png" width="700"/>
 
-![Alt text](results/performance_models_normalized_data.png)
-![Alt text](results/comparison_linear_models_normalized_data.png)
-![Alt text](results/logistic_reg_results.png)
+<img src="results_copie/comparison_linear_models_normalized_data.png" width="700"/>
+
+<img src="results_copie/logistic_reg_results.png" width="700"/>

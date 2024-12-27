@@ -6,7 +6,7 @@ import balancing_classes as balance
 import build_models as build
 
 
-file_dir = "./data/breast_cancer.csv"
+file_dir = "data/breast_cancer.csv"
 
 # STEP 1 : handle missing values
 

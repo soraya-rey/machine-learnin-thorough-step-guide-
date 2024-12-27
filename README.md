@@ -89,7 +89,7 @@ Correlation and clustering:
 
 ```
 
-<img src="results/feature_correlation_heatmap.png/>
+<img src="results/feature_correlation_heatmap.png" width="400"/>
 
 ![Alt text](results/feature_correlation_heatmap.png)
 
